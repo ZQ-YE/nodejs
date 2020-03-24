@@ -18,4 +18,6 @@ http.createServer((request,response)=>{
         })
     }
 
-}).listen(3000)
+}).listen(3000,function(){
+    console.log('listen on *:3000')
+})
