@@ -9,8 +9,8 @@ const express = require("express");
 const { createProxyMiddleware } = require("http-proxy-middleware");
 const app = express();
 const exampleProxy = createProxyMiddleware({
-  target: "http://localhost:4000",
-  changeOrigin: false
+    target: "http://localhost:4000",
+    changeOrigin: false
 });
 app.use(express.static(__dirname + "/"));
 app.use("/api", exampleProxy);
