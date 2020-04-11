@@ -15,6 +15,8 @@
 ### 03
 + net
 + socket
+### 04
++ mysql
 
 ### cli  脚手架开发
 ```hash
@@ -39,4 +41,12 @@ npm link
 
 kkb
 #> cli...
+```
+
+### 04
+```dash
+# readline
+# 命令行接口
+
+
 ```
