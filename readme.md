@@ -16,7 +16,11 @@
 + net
 + socket
 ### 04
++ readline
++ brew (软件管理)
 + mysql
++ mongodb
++ redis
 
 ### cli  脚手架开发
 ```hash
